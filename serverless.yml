@@ -15,7 +15,7 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs18.x
 
   environment:
     APP_AWS_REGION: ${file(.env.yml):APP_AWS_REGION}
